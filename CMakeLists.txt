@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(person_employee_vector main.cpp
         person.cpp
-        person.h)
+        person.h
+        employee.cpp
+        employee.h)

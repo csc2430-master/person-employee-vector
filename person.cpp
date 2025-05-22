@@ -10,7 +10,7 @@
 using std::string;
 using std::stringstream;
 
-Person::Person(string name, unsigned int age): _name(name), _age(age) {
+Person::Person(const string& name, unsigned int age): _name(name), _age(age) {
 }
 
 string Person::ToString() const {
